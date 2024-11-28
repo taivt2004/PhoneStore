@@ -1,11 +1,11 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import Main_React2 from './Lab_react2/Main_Run'; // Đường dẫn đến file Main_React2.js
+import Main_ASM_React2 from './PhoneStore/navigations/Main';
 
 const App = () => {
     return (
         <NavigationContainer>
-            <Main_React2 />
+            <Main_ASM_React2 />
         </NavigationContainer>
     );
 }
